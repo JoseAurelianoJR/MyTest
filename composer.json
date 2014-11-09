@@ -1,0 +1,13 @@
+{
+    "name": "Apple/my-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Aureliano",
+            "email": "joseaureliano@mmvtechnology.com.br"
+        }
+    ],
+    "require": {
+    	"mandrill/mandrill": "1.0.*"
+    }
+}

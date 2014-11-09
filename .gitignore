@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+bower_components
+reports
+dist/_bower.js
+
+/vendor/
+/.idea/

@@ -2,3 +2,27 @@
 	text-align: center;
 }
 
+.box{
+	margin-top: 10%;
+	padding-bottom: 22px;
+	width: 45%;
+	margin-left: 25%;
+}
+
+.box-profile{
+	margin-top: 10%;
+	padding-bottom: 22px;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.error{
+	padding: 3px;
+	color: red;
+}
+
+.notUniqueUsername{
+	padding: 3px;
+	color: red;
+}
+

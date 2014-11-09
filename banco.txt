@@ -1,0 +1,12 @@
+create database my_test;
+
+create table users(
+	id int not null auto_increment primary key,
+	complete_name varchar(150) not null,
+	username varchar(80) not null unique,
+	email varchar(180) not null unique,
+	password varchar(150) not null,
+	status int not null default 0,
+	created_at date not null,
+	activation_key varchar(180)
+);

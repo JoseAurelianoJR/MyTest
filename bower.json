@@ -1,17 +1,27 @@
 {
   "name": "MyTest",
-  "version": "0.0.1",
-  "homepage": "https://github.com/JoseAurelianoJR/MyTest",
-  "description": "Test of job",
-  "authors": [
-    "Jose Aureliano"
-  ],
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "",
   "license": "MIT",
+  "copyright": "Jose Aureliano",
+  "main": "dist/MyTest.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*",
+    "bootstrap": "*",
+    "jquery": "*",
+    "fontawesome": "*",
+    "jquery-validation": "*"
+  },
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
     "test",
-    "tests"
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
   ]
 }
