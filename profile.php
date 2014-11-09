@@ -6,7 +6,7 @@
   endif; 
 
   $email = $_SESSION['email'];
-  $default = "http://www.somewhere.com/homestar.jpg";
+  $default = "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?f=y";
 
   $p_grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=35";
 
@@ -64,7 +64,7 @@
           <div class="panel panel-default">
             <div class="panel-body">
               <div class="col-md-2">
-                <img src="<?=$g_grav_url?>" class="img-rounded"/>
+                <img src="<?=$g_grav_url != null? $g_grav_url : $default?>" class="img-rounded"/>
               </div>
               <div class="col-md-8">
                 <div class="form-grop">
